@@ -6,7 +6,7 @@ const Layout = ({children}) => {
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        {children}
+        <main className=' flex flex-col justify-center items-center'>{children}</main>
       </body>
     </html>
   );
